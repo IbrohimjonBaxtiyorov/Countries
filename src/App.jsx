@@ -10,7 +10,7 @@ export default function App() {
       element: <Home />,
     },
     {
-      path: "/aboute",
+      path: "/:name",
       element: <Aboute />,
     },
   ]);
