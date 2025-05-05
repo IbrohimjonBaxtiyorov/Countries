@@ -142,8 +142,8 @@ export default function Home() {
                   <p>{description}</p>
                   <div className="card-actions justify-end">
                   <button className="btn btn-primary">$ {price}</button>
-                    <button className="btn btn-primary">{name}</button>
-                    <button className="btn btn-primary">{category}</button>
+                  <Link className="btn btn-primary" to={`/${newCountry}`}>{name}</Link>
+                  <button className="btn btn-primary">{category}</button>
                     <Link className="btn btn-primary" to={`/${newCountry}`}>Batafsil</Link>
                     </div>
                 </div>
